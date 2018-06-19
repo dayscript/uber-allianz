@@ -1,0 +1,46 @@
+<?php
+
+	date_default_timezone_set('America/Bogota');
+
+
+	require "includes/functions.php";
+		
+	session_start();
+
+	if ( isset( $_SESSION['utm'] ) && strlen($_SESSION['utm']) == 36
+		&& isset( $_SESSION['fecha']  ) ) {
+		
+		save_redencion( $_SESSION['utm'], $_SESSION['fecha'] );
+
+		$_SESSION = array();
+
+			
+	} else {
+
+		header("Location: https://www.uber.com/es-CO/blog/");
+
+
+	}
+
+
+?>
+<!DOCTYPE html>
+<html> 
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"> 
+	<title>Trivia Uber Allianz</title>
+	<link rel="stylesheet" type="text/css" href="includes/styles.css">
+</head>
+<body id="redencion">
+		
+	<div class="bono">
+		<img src="includes/bono-don-churro.jpg">
+		<p>Descarga este bono en el siguiente botón, imprímelo y preséntalo en el establecimiento para hacerlo efectivo.</p>
+		<a href="Bono-Don-Churro.pdf" target="_blank" download class="descarga">Descargar bono</a>
+	</div>
+		
+
+<link href="https://fonts.googleapis.com/css?family=Exo:300,400,600,800" rel="stylesheet">
+	
+</body>
+</html>

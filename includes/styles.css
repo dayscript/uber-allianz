@@ -1,0 +1,72 @@
+* {
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */	
+}
+
+html {
+	font-size: 62.5%;
+	margin: 0; 
+	height: 100%; 
+	overflow: hidden; 
+}
+
+body {
+	position: relative;
+	padding: 0;
+	margin: 0;
+	height: 100%; 
+	font-size: 14px;
+	font-family: 'Exo', sans-serif;
+}
+
+iframe{ 
+	position: absolute; 
+	left:0; 
+	right:0; 
+	bottom:0; 
+	top:0; 
+	border:0; 
+} 
+
+#redencion {
+	background: url("back-uber.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: #B3E5D6;
+  text-align: center;
+  width: 100%;
+}
+
+.bono {
+	max-width: 60%;
+	margin: 0 auto;
+}
+
+.bono img {
+	width: 100%;
+	max-width: 600px;
+
+}
+
+.bono {
+  margin-top: 10%;
+	font-size: 1.4em;
+	line-height: 1.4em;
+
+}
+
+.descarga {
+	background: #27b7bd url("download4.png") no-repeat 10px center;
+	color: #FFF;
+	display: inline-block;
+	font-size: 1.4em;
+	line-height: 1em;
+	padding: 0.5em 0.8em 0.5em 47px;
+	border-radius: 5px;
+	text-decoration: none;
+	font-weight: 800;
+	text-transform: uppercase;
+}
