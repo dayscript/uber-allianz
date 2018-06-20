@@ -3,7 +3,7 @@
 function db() {
 	
 	try {
-	    $mbd = new PDO('mysql:host=localhost;dbname=uberallianz', 'uberallianz', 'ubera11ianz');
+	    $mbd = new PDO('mysql:host=localhost;dbname=uberallianz', 'uberallianz', 'uberallianz');
 
 	    return $mbd;
 
