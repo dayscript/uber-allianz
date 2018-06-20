@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <!DOCTYPE html>
 <html> 
 <head>
@@ -11,6 +10,3 @@
 	<script type="text/javascript" src="https://embed.typeform.com/embed.js"></script>
 </body>
 </html>
-=======
-<?php echo 'ya quedo'; ?>
->>>>>>> 4da8152a702a7baf6a1ac1402ee07fd51c7df1ad
