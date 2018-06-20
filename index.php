@@ -1,3 +1,8 @@
+<?php
+
+	header("Location: trivia1.php");
+
+?>
 <!DOCTYPE html>
 <html> 
 <head>
