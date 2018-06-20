@@ -1,6 +1,6 @@
 <?php
 
-	header("Location: trivia1.php");
+	//header("Location: trivia1.php");
 
 ?>
 <!DOCTYPE html>
