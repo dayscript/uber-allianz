@@ -73,6 +73,10 @@
 </head>
 <body>
 	<div class="container" id="container">
+		<div class="intro">
+			<img src="includes/Texto-inicial-uber-pantalla.png">
+			<p>Para participar debes leer y aceptar los términos y condiciones del concurso.</p>
+		</div>
 		<div id="terminos">
 			<div class="texto-terminos">
 				<h1>Términos y condiciones</h1>

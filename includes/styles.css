@@ -44,13 +44,23 @@ iframe{
   text-align: center;
 }
 
+.intro {
+    margin-top: 10%;
+}
+
+.intro p {
+	margin: 1em 0 2em;
+	color: #CCC;
+	font-size: 1.2em;
+	line-height: 1.2em;
+}
+
 #terminos {
 	position: relative;
     display: inline-block;
-    margin-top: 10%;
     color: #FFF;
     max-width: 450px;
-    margin: 10% auto 0;
+    margin: 0 auto;
     height: 400px;
     overflow-y: scroll;
     padding: 0.5em 1em;
