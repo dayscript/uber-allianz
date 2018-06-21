@@ -47,7 +47,14 @@
 
 				if ( document.getElementById('check-terminos').checked && document.getElementById('check-privacidad').checked ) {
 					terminos.style.display = "none";
-					trivia.style.display = "block";
+					// trivia.style.display = "block";
+
+					var d1 = document.getElementById('container');
+					d1.insertAdjacentHTML('beforeend', '<iframe id="typeform-full" width="100%" height="100%" frameborder="0" src="https://soportecolombia.typeform.com/to/hJyP2s"></iframe>');
+
+
+
+
 				} else {
 					if (!document.getElementById('check-terminos').checked) {
 						alert("Debe aceptar términos y condiciones")
@@ -67,11 +74,11 @@
 	</script>
 </head>
 <body>
-	<!-- <div class="container">
+	<div class="container" id="container">
 		<div id="terminos">
 			<div class="texto-terminos">
 				<h1>Términos y condiciones</h1>
-				<?php //include "terminos.html"; ?>
+				<?php include "terminos.html"; ?>
 				<br><span>
 					<input type="checkbox" name="terminos" id="check-terminos"><label for="check-terminos">Acepto términos y condiciones</label>
 				</span>
@@ -84,9 +91,9 @@
 				<a href="#" id="no-acepto" onclick="terminos(0)">No acepto</a>
 			</div>
 		</div>
-	</div> -->
+	</div>
 		
-	<iframe id="typeform-full" width="100%" height="100%" frameborder="0" src="https://soportecolombia.typeform.com/to/hJyP2s"></iframe>
+	<!-- <iframe id="typeform-full" width="100%" height="100%" frameborder="0" src="https://soportecolombia.typeform.com/to/hJyP2s"></iframe> -->
 	<script type="text/javascript" src="https://embed.typeform.com/embed.js"></script>
 
 	
