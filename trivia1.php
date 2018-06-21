@@ -53,8 +53,6 @@
 					d1.insertAdjacentHTML('beforeend', '<iframe id="typeform-full" width="100%" height="100%" frameborder="0" src="https://soportecolombia.typeform.com/to/hJyP2s"></iframe>');
 
 
-
-
 				} else {
 					if (!document.getElementById('check-terminos').checked) {
 						alert("Debe aceptar términos y condiciones")
@@ -91,6 +89,10 @@
 				<a href="#" id="no-acepto" onclick="terminos(0)">No acepto</a>
 			</div>
 		</div>
+	</div>
+
+	<div id="ver-terminos">
+		<a href="Terminos-condiciones-uberallianzchallenge.pdf" target="_blank">Términos y condiciones</a>
 	</div>
 		
 	<!-- <iframe id="typeform-full" width="100%" height="100%" frameborder="0" src="https://soportecolombia.typeform.com/to/hJyP2s"></iframe> -->
