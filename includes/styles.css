@@ -48,6 +48,11 @@ iframe{
     margin-top: 10%;
 }
 
+.intro img {
+	width: 100%;
+	max-width: 617px;
+}
+
 .intro p {
 	margin: 1em 0 2em;
 	color: #CCC;
@@ -141,6 +146,7 @@ iframe{
     margin: 0 auto;
     width: 200px;
     text-align: center;
+    display: none;
 }
 
 #ver-terminos a,

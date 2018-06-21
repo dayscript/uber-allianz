@@ -43,10 +43,12 @@
 			if ( str == 1 ) {
 				
 				var terminos = document.getElementById("terminos");
+				var ver_terminos = document.getElementById("ver-terminos");
 				var trivia = document.getElementById("typeform-full");
 
 				if ( document.getElementById('check-terminos').checked && document.getElementById('check-privacidad').checked ) {
 					terminos.style.display = "none";
+					ver_terminos.style.display = "block";
 					// trivia.style.display = "block";
 
 					var d1 = document.getElementById('container');
@@ -61,8 +63,6 @@
 						alert("Debe aceptar política de privacidad")
 					}
 				}
-
-
 
 			} else {
 				window.location.href = "https://www.uber.com/es-CO/blog/";
