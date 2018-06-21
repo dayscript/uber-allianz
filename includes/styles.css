@@ -179,3 +179,11 @@ iframe{
 	font-weight: 800;
 	text-transform: uppercase;
 }
+
+@media only screen and (max-width: 600px) {
+
+	#ver-terminos {
+		bottom: 6em;
+	}
+
+}
