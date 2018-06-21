@@ -198,6 +198,10 @@ iframe{
 
 @media only screen and (max-width: 600px) {
 
+	#terminos {
+		width: 90%;
+	}
+
 	#ver-terminos {
 		bottom: 5em;
 	}
