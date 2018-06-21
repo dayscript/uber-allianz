@@ -18,6 +18,11 @@ body {
 	height: 100%; 
 	font-size: 14px;
 	font-family: 'Exo', sans-serif;
+	background: url("back-uber.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 iframe{ 
@@ -29,8 +34,97 @@ iframe{
 	border:0; 
 } 
 
+.container {
+	/*background: url("back-uber.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;*/
+  height: 100%;
+  text-align: center;
+}
+
+#terminos {
+	position: relative;
+    display: inline-block;
+    margin-top: 10%;
+    color: #FFF;
+    max-width: 450px;
+    margin: 10% auto 0;
+    height: 400px;
+    overflow-y: scroll;
+    padding: 0.5em 1em;
+    text-align: justify;
+    background: rgba(0,0,0,0.5);
+    font-size: 0.9em;
+    line-height: 1.2em;
+    color: #AAA;
+}
+
+#terminos p,
+#terminos li {
+	margin-bottom: 0.8em;
+}
+
+#terminos p a {
+	color: #FFF;
+}
+
+#terminos table {
+	width: 100%;
+}
+
+#terminos th {
+	font-weight: bold;
+	text-align: center;
+	background: rgba(255,255,255,0.2);
+	border: solid 1px #AAA;
+}
+
+#terminos td {
+	border: solid 1px #AAA;
+}
+
+#terminos span {
+	display: block;
+	margin: 0.5em;
+}
+
+#terminos label {
+	font-weight: bold;
+	color: #FFF;
+}
+
+#terminos #acepto {
+	display: inline-block;
+    background: #27B7BD;
+    color: #FFF;
+    font-size: 1.4em;
+    font-weight: bold;
+    padding: 0.7em;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-right: 1em;
+}
+
+#terminos #no-acepto {
+	display: inline-block;
+    background: #CCC;
+    color: #FFF;
+    font-size: 1.4em;
+    font-weight: bold;
+    padding: 0.7em;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+#typeform-full {
+	display: none;
+
+}
+
 #redencion {
-	background: url("back-uber.jpg") no-repeat center center fixed; 
+	/*background: url("back-uber.jpg") no-repeat center center fixed; */
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
