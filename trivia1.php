@@ -96,7 +96,7 @@
 	</div>
 
 	<div id="ver-terminos">
-		<a href="Terminos-condiciones-uberallianzchallenge.pdf" target="_blank">Términos y condiciones</a>
+		<a href="Terminos-condiciones-uberallianzchallenge2.pdf" target="_blank">Términos y condiciones</a>
 	</div>
 		
 	<!-- <iframe id="typeform-full" width="100%" height="100%" frameborder="0" src="https://soportecolombia.typeform.com/to/hJyP2s"></iframe> -->
