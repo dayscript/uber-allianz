@@ -2,26 +2,18 @@
 
 	date_default_timezone_set('America/Bogota');
 
-
-	require "includes/functions.php";
-		
 	session_start();
 
-	if ( isset( $_SESSION['utm'] ) && strlen($_SESSION['utm']) == 36
-		&& isset( $_SESSION['fecha']  ) ) {
-		
+	require "includes/functions.php";
+
+	if ( isset( $_SESSION['utm'] ) && (strlen($_SESSION['utm']) == 36) && isset( $_SESSION['fecha']  ) ) {
 		save_redencion( $_SESSION['utm'], $_SESSION['fecha'] );
-
-		$_SESSION = array();
-
-			
 	} else {
-
 		header("Location: https://www.uber.com/es-CO/blog/");
-
 
 	}
 
+	$_SESSION = array();
 
 ?>
 <!DOCTYPE html>
@@ -41,6 +33,17 @@
 		
 
 <link href="https://fonts.googleapis.com/css?family=Exo:300,400,600,800" rel="stylesheet">
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-121188631-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-121188631-1');
+</script>
+
 	
 </body>
 </html>
