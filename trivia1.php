@@ -79,8 +79,8 @@
 		</div>
 		<div id="terminos">
 			<div class="texto-terminos">
-				<h1>Términos y condiciones</h1>
-				<?php include "terminos.html"; ?>
+				<h2>Consulta los términos y condiciones <a href="https://uberallianzchallenge.com/Terminos-condiciones-uberallianzchallenge2.pdf" target="_blank">haciendo clic aquí</a></h2>
+				<?php //include "terminos.html"; ?>
 				<br><span>
 					<input type="checkbox" name="terminos" id="check-terminos"><label for="check-terminos">Acepto términos y condiciones</label>
 				</span>

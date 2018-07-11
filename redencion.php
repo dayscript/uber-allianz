@@ -9,7 +9,7 @@
 	if ( isset( $_SESSION['utm'] ) && (strlen($_SESSION['utm']) == 36) && isset( $_SESSION['fecha']  ) ) {
 		save_redencion( $_SESSION['utm'], $_SESSION['fecha'] );
 	} else {
-		header("Location: https://www.uber.com/es-CO/blog/");
+//		header("Location: https://www.uber.com/es-CO/blog/");
 
 	}
 
@@ -26,9 +26,9 @@
 <body id="redencion">
 		
 	<div class="bono">
-		<img src="includes/bono-don-churro.jpg">
+		<img src="includes/Bono-Color-Siete.jpg">
 		<p>Descarga este bono en el siguiente botón, imprímelo y preséntalo en el establecimiento para hacerlo efectivo.</p>
-		<a href="Bono-Don-Churro.pdf" target="_blank" download class="descarga">Descargar bono</a>
+		<a href="Bono-Color-Siete-triviauberallianz.pdf" target="_blank" download class="descarga">Descargar bono</a>
 	</div>
 		
 

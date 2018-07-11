@@ -18,7 +18,8 @@ body {
 	height: 100%; 
 	font-size: 14px;
 	font-family: 'Exo', sans-serif;
-	background: url("back-uber.jpg") no-repeat center center fixed;
+	/*background: url("back-uber.jpg") no-repeat center center fixed;*/
+	background: url("Pantalla-Trivia-uber_1366x768-negro.jpg") no-repeat center center fixed;
 	-webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -66,14 +67,26 @@ iframe{
     color: #FFF;
     max-width: 450px;
     margin: 0 auto;
-    height: 400px;
-    overflow-y: scroll;
+    /*height: 400px;*/
+    /*overflow-y: scroll;*/
     padding: 0.5em 1em;
     text-align: justify;
     background: rgba(0,0,0,0.5);
     font-size: 0.9em;
     line-height: 1.2em;
     color: #AAA;
+}
+
+#terminos h2 {
+	font-size: 1.6em;
+    line-height: 1.2em;
+    text-align: center;
+}
+
+#terminos h2 a,
+#terminos h2 a:visited {
+	color: #00B8BE;
+	text-decoration: underline;
 }
 
 #terminos p,
@@ -168,6 +181,9 @@ iframe{
 .bono {
 	max-width: 60%;
 	margin: 0 auto;
+  	margin-top: 5%;
+	font-size: 1.4em;
+	line-height: 1.4em;
 }
 
 .bono img {
@@ -176,12 +192,6 @@ iframe{
 
 }
 
-.bono {
-  margin-top: 10%;
-	font-size: 1.4em;
-	line-height: 1.4em;
-
-}
 
 .descarga {
 	background: #27b7bd url("download4.png") no-repeat 10px center;
