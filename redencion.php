@@ -9,7 +9,7 @@
 	if ( isset( $_SESSION['utm'] ) && (strlen($_SESSION['utm']) == 36) && isset( $_SESSION['fecha']  ) ) {
 		save_redencion( $_SESSION['utm'], $_SESSION['fecha'] );
 	} else {
-//		header("Location: https://www.uber.com/es-CO/blog/");
+		header("Location: https://www.uber.com/es-CO/blog/");
 
 	}
 
@@ -21,7 +21,7 @@
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"> 
 	<title>Trivia Uber Allianz</title>
-	<link rel="stylesheet" type="text/css" href="includes/styles.css">
+	<link rel="stylesheet" type="text/css" href="includes/styles.css?v=<?php echo rand(100, 999); ?>">
 </head>
 <body id="redencion">
 		
