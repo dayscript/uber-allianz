@@ -52,7 +52,7 @@
 					// trivia.style.display = "block";
 
 					var d1 = document.getElementById('container');
-					d1.insertAdjacentHTML('beforeend', '<iframe id="typeform-full" width="100%" height="100%" frameborder="0" src="https://soportecolombia.typeform.com/to/DRbPhp"></iframe>');
+					d1.insertAdjacentHTML('beforeend', '<iframe id="typeform-full" width="100%" height="100%" frameborder="0" src="https://soportecolombia.typeform.com/to/l61eFc"></iframe>');
 
 
 				} else {

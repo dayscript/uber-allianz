@@ -26,9 +26,9 @@
 <body id="redencion">
 		
 	<div class="bono">
-		<img src="includes/Bono-Color-Siete.jpg">
+		<img src="includes/bono-baskin-robbins.jpg">
 		<p>Descarga este bono en el siguiente botón, imprímelo y preséntalo en el establecimiento para hacerlo efectivo.</p>
-		<a href="Bono-Color-Siete-triviauberallianz.pdf" target="_blank" download class="descarga">Descargar bono</a>
+		<a href="Bono-Baskin-Robbins.pdf" target="_blank" download class="descarga">Descargar bono</a>
 	</div>
 		
 
